@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Quicksand'; /*a name to be used later*/
+    src: url(./Assets/fonts/Quicksand-VariableFont_wght.ttf); /*URL to font*/
+}
+@font-face {
+    font-family: 'Quicksand-Bold'; /*a name to be used later*/
+    src: url(./Assets/fonts/static/Quicksand-Bold.ttf); /*URL to font*/    
+}
+@font-face {
+    font-family: 'Quicksand-Medium'; /*a name to be used later*/
+    src: url(./Assets/fonts/static/Quicksand-Medium.ttf); /*URL to font*/    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #E514F4;
+    color: #000000;
+    font-family: 'Quicksand';
+    margin: 0px;
+}
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        height: 70%;
+        border: none;
+
+    }
+
+        #title{
+            font-family: 'Quicksand-Bold';
+            font-weight: bolder;
+            font-size: 48px;
+            width: 300px;
+            height: 180px;
+            text-align: center;
+            border: none;
+            padding: 50px 0px;
+        }
+
+        #inputCase{
+            width: 232.5px;
+            height: 65px;
+            border-radius: 16px;
+            background-color: #222222;
+            color: #FFFFFF;
+            padding: 10px 10px 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+            #hash{
+                width: 21px;
+                height: 40px;
+                font-size: 32px;
+            }
+            #hexInput{
+                width: 201px;
+                height: 55px;
+                padding: 10px;
+                font-size: 32px;
+                background-color: #222222;
+                border: none;
+                outline: none;
+                text-decoration: none;
+                color: white;                
+            }
+
+            .props{
+                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .row{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 5px 10px 5px 10px;
+            }
+
+            .boldText{
+                margin-left: 10px;
+                font-family: 'Quicksand-Bold';
+                font-size: 24px;
+            }
+
+            #anotherBtn{
+                border:none;
+                outline:none;
+                height: 48px;
+                width: 261px;
+                padding: 1px,6px;
+                border-radius: 8px;
+                letter-spacing: 4px;
+                background-color: #882222;
+                font-size: 24px;
+                font-family: 'Quicksand-Medium';
+                color: #FFFFFF;
+                cursor: pointer;
+                box-shadow: 0px 4px 14px rgba(0,0,0,.35);
+            }
+
+                #yourColor{
+                    margin-left: 10px;
+                    border: 3px solid black;
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 45px;
+                    outline: none;
+                }
+
+                #guessBtn{
+                    border:none;
+                    outline:none;
+                    height: 48px;
+                    width: 261px;
+                    margin-top: 25px;
+                    padding: 1px,6px;
+                    border-radius: 8px;
+                    letter-spacing: 4px;
+                    background-color: #222222;
+                    font-size: 24px;
+                    font-family: 'Quicksand-Medium';
+                    color: #FFFFFF;
+                    cursor: pointer;
+                    box-shadow: 0px 4px 14px rgba(0,0,0,.35);
+                }
+
+                #colorName{
+                    font-style: italic;
+                }
+
+    footer{
+        position: fixed;
+        bottom: 40px;
+        margin-top: auto;
+        padding-top: 20px;
+        text-align: center;
+        align-self: flex-end;
+        width: 100%;
+        border: none;
+
+    }
+
+        .singleText{
+            display: block;
+            border: none;
+            font-size: 16px;
+            font-family: 'Quicksand-Medium';
+        }
+    
+        #guessBtn:hover{
+            background-color: rgb(73, 72, 72);
+        }
+        #anotherBtn:hover{
+            background-color: rgb(73, 72, 72);
+        }
+
+
+
+
